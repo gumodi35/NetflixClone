@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NetflixClon
+       - Watch TV Shows Online, Watch Movies Online</title>
+
+    <link href="CSS/style.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="" class="logo">
+          <img src="img/logo.svg">
+        </a>
+        <a class="signin" href="https://www.netflix.com/login">
+          Registrate
+        </a>
+      </nav>
+
+      <section class="pitch">
+        <h1 class="pitch__title">Que te gustaria ver.</h1>
+        <p class="pitch__subtitle">MIRA DONDE QUIERAS. CANCELA CUANDO LO DESES.</p>
+
+        <button class="btn">PRUEBA UN MES GRATIS</button>
+      </section>
+    </header>
+
+    <div id="features">
+      <nav>
+        <div class="center columns size-80">
+          <a class="column is-selected" href="#" data-id="cancelanytime">
+            <img alt="Cancel anytime" src="img/cancel.svg"/>
+            <h2>
+            Sin plazo forsozo
+              <br/>
+              Cancela cuando quieras
+            </h2>
+          </a>
+
+          <a class="column" href="#" data-id="watchanywhere">
+            <img alt="Watch anywhere" src="img/watchanywhere.svg"/>
+            <h2>
+              Mira donde quieras
+            </h2>
+          </a>
+
+          <a class="column" href="#" data-id="pickprice">
+            <img alt="Pick your price" src="img/pickprice.svg"/>
+            <h2>
+              Elije tu precio
+            </h2>
+          </a>
+        </div>
+      </nav>
+
+      <article>
+        <section class="is-selected center size-70" data-id="cancelanytime">
+          <div class="columns">
+            <div class="column">
+              <h2>
+                Si decides que no es para ti  - no hay  problema. Sin compromisos Cancela en a cualquier hora.
+              </h2>
+              <button class="btn btn-large">UNETE POR UN MES GRATIS</button>
+            </div>
+
+            <div class="column">
+              <img src="img/cancelanytime_withdevice.png"/>
+            </div>
+          </div>
+        </section>
+
+        <section class="center size-80" id="watchanywhere" data-id="watchanywhere">
+          <div class="columns">
+            <h2 class="column">
+              Mira series y peliculas a cualquier hora, donde quieras - personalizado para ti.
+            </h2>
+            <button class="btn btn-large column is-narrow">UNETE POR UN MES GRATIS</button>
+          </div>
+
+          <div class="columns size-90 center">
+            <div class="column text-center">
+              <img src="img/asset_TV_UI.png"/>
+              <h3>Mira en tu TV</h3>
+              <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+
+            <div class="column text-center">
+              <img src="img/asset_mobile_tablet_UI_2.png"/>
+              <h3>Mira ahora o descarga para despues</h3>
+              <p>Disponible para tablet y telefono, donde quiera que vayas.</p>
+            </div>
+
+            <div class="column text-center">
+              <img src="img/asset_website_UI.png"/>
+              <h3>Usa cualquie computadora</h3>
+              <p>Mira ahora Netflix.com.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="center size-70" id="pickprice" data-id="pickprice">
+          <div class="text-center">
+            <h2>
+              Elije un plan y mira siempre Netflix.
+            </h2>
+            <button class="btn btn-large">UNETE POR UN MES GRATIS</button>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Basic</th>
+                <th>Standard</th>
+                <th>Premium</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Precio mensual despues de la prueba gratis 02/01/22</td>
+                <td>US$7.99</td>
+                <td>US$9.99</td>
+                <td>US$11.99</td>
+              </tr>
+              <tr>
+                <td>HD available</td>
+                <td><i class="fa fa-times"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Ultra HD available</td>
+                <td><i class="fa fa-times"></i></td>
+                <td><i class="fa fa-times"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Dispositivos que quieras ver</td>
+                <td>1</td>
+                <td>2</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>Mira en tu laptop, TV, telefono y tablet</td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Ilimitadas peliculas y series de TV </td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Cancela cuando quieras</td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+              <tr>
+                <td>Primer mes gratis</td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+                <td><i class="fa fa-check"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </article>
+    </div>
+
+    <footer class="center size-90">
+      <p>
+        Preguntas? Marca <a href="tel:800 123 456">800 123 456</a>
+      </p>
+
+      <ul class="columns flex-wrap">
+        <li class="column is-25">
+          <a href="https://help.netflix.com/support/412"><span>FAQ</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://help.netflix.com"><span>Centro de Ayuda</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://www.netflix.com/yourAccount"><span>Cuenta</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://media.netflix.com/"><span>Media Center</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="http://ir.netflix.com/"><span>Socios Comerciales</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://jobs.netflix.com/jobs"><span>Empleos</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://www.netflix.com/redeem"><span>Tarjetas de regalo</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://www.netflix.com/watch"><span>Formas de ver</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://help.netflix.com/legal/termsofuse"><span>Politicas de Uso</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://help.netflix.com/legal/privacy"><span>Privacidad</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://help.netflix.com/legal/privacy#cookies"><span>Cookies Preferences</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://github.com/gumodi35/NETFLIXCLONE"><span>git hub</span></a>
+        </li>
+        <li class="column is-25">
+          <a href="https://www.netflix.com/es-en/originals"><span>Netflix Originals Mexico</span></a>
+        </li>
+      </ul>
+
+      <div id="lang-selection">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        <select tabindex="0">
+          <option value="es">Español</option>
+          <option selected value="en">English</option>
+        </select>
+      </div>
+
+      <p id="company">Netflix MEXICO</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
